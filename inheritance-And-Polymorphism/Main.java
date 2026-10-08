@@ -17,6 +17,7 @@ public class Main {
 
         Shape cylinder = new Cylinder(10.0, 7.0, "Green");
         System.out.println("--- Testing Cylinder ---");
+        System.out.println("Radius: " + ((Cylinder) cylinder).getRadius());
         cylinder.printInfo();
         System.out.println();
     }

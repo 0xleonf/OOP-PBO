@@ -14,14 +14,6 @@ public class Cylinder extends Circle {
         this.height = height;
     }
 
-    public double getTinggi() {
-        return height;
-    }
-
-    public void setTinggi(double height) {
-        this.height = height;
-    }
-
     public double volume() {
         return area() * height;
     }
