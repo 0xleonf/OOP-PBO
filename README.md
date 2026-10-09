@@ -1,16 +1,16 @@
 # OOP-PBO
 
-Java OOP inheritance and polymorphism demo.
+Repository for Java Object-Oriented Programming (OOP) topics and exercises.
 
-## Structure
-- `Shape` (base class)
-  - `Square` (extends `Shape`)
-  - `Circle` (extends `Shape`)
-    - `Cylinder` (extends `Circle`)
+## Modules Completed
+- [`inheritance-And-Polymorphism/`](inheritance-And-Polymorphism/README.md): Class hierarchy (`Shape`, `Square`, `Circle`, `Cylinder`) and method overriding.
+- [`Array-Arraylist/`](Array-Arraylist/README.md): Banking system model (`Bank`, `Customer`, `Account`) using dynamic `ArrayList`.
 
-## Run
+## Quick Start
 ```bash
-cd inheritance-And-Polymorphism
-javac *.java
-java Main
+# Inheritance & Polymorphism
+cd inheritance-And-Polymorphism && javac *.java && java Main
+
+# Array & ArrayList
+cd ../Array-Arraylist && javac *.java && java Main
 ```
